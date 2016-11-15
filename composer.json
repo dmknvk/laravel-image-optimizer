@@ -18,5 +18,6 @@
         "psr-4": {
             "Konovalchuk\\LaravelImageOptimizer\\": "src"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
