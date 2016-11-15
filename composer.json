@@ -1,0 +1,22 @@
+{
+    "name": "dmitrykonovalchuk/laravel-image-optimizer",
+    "description": "Images optimization for Google PageSpeed Insights",
+    "keywords": ["laravel", "images", "optimization", "PageSpeed", "Insights"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Konovalchuk",
+            "email": "dmitry.konovalchuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "Konovalchuk\\LaravelImageOptimizer\\": "src"
+        }
+    }
+}
