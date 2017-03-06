@@ -1,6 +1,6 @@
 <?php
 
-namespace Konovalchuk\LaravelImageOptimizer;
+namespace DmKnvk\LaravelImageOptimizer;
 
 use Illuminate\Console\Scheduling\Schedule;
 

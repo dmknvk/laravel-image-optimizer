@@ -1,7 +1,7 @@
 ## Laravel Image Optimizer
-[![Packagist License](https://poser.pugx.org/dmitrykonovalchuk/laravel-image-optimizer/license.png)](http://choosealicense.com/licenses/mit/)
-[![Latest Stable Version](https://poser.pugx.org/dmitrykonovalchuk/laravel-image-optimizer/version.png)](https://packagist.org/packages/dmitrykonovalchuk/laravel-image-optimizer)
-[![Total Downloads](https://poser.pugx.org/dmitrykonovalchuk/laravel-image-optimizer/d/total.png)](https://packagist.org/packages/dmitrykonovalchuk/laravel-image-optimizer)
+[![Packagist License](https://poser.pugx.org/dmknvk/laravel-image-optimizer/license.png)](http://choosealicense.com/licenses/mit/)
+[![Latest Stable Version](https://poser.pugx.org/dmknvk/laravel-image-optimizer/version.png)](https://packagist.org/packages/dmknvk/laravel-image-optimizer)
+[![Total Downloads](https://poser.pugx.org/dmknvk/laravel-image-optimizer/d/total.png)](https://packagist.org/packages/dmknvk/laravel-image-optimizer)
 
 This is a package for Laravel 5 that optimize images for Google PageSpeed Insights requirements.
 
@@ -17,19 +17,19 @@ This package uses the following tools in your system:
 Require this package with composer:
 
 ```shell
-composer require dmitrykonovalchuk/laravel-image-optimizer
+composer require dmknvk/laravel-image-optimizer
 ```
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
 ```php
-Konovalchuk\LaravelImageOptimizer\ServiceProvider::class,
+DmKnvk\LaravelImageOptimizer\ServiceProvider::class,
 ```
 
 Copy the package config to your local config with the publish command:
 
 ```shell
-php artisan vendor:publish --provider="Konovalchuk\LaravelImageOptimizer\ServiceProvider"
+php artisan vendor:publish --provider="DmKnvk\LaravelImageOptimizer\ServiceProvider"
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 <?php
 
-namespace Konovalchuk\LaravelImageOptimizer\Console;
+namespace DmKnvk\LaravelImageOptimizer\Console;
 
 use Illuminate\Console\Command;
 
